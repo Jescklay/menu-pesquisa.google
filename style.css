@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.39);
+  background-image: url(https://images2.alphacoders.com/774/774372.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu i {
+  color: aliceblue;
+  display: flex;
+  justify-content: end;
+  margin-right: 1%;
+  margin-top: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.menu i:hover {
+  background-color: black;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.container-header {
+  margin: 10px;
+  border-style: groove;
+  background-color: rgba(63, 61, 61, 0.574);
+  border: none;
+  padding: 15px;
+  box-shadow: 0px 3px 14px 0px;
+  background-image: url(https://images2.alphacoders.com/774/774372.jpg);
+  border-radius: 15px;
+}
+
+.container-header a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.container-header a:hover {
+  color: aliceblue;
+  box-shadow: 0px 1px 0px;
+}
+
+.container-header ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding: 10px;
+  justify-content: center;
+  font-size: 25px;
+}
+picture img{
+  max-width: 40%;
+  margin-left: 15%;
+}
+
+.container-pesquisa {
+  color: aliceblue;
+  margin-top: 16%;
+  margin-left: 20%;
+}
+
+.container-pesquisa .barra-pesquisa i {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.container-pesquisa .barra-pesquisa input {
+  border-radius: 25px;
+  width: 60%;
+  height: 9vh;
+  text-align: center;
+  border: none;
+  box-shadow: 1px 2px 5px 0px;
+  font-size: 30px;
+}
+
+.container-pesquisa .barra-pesquisa input:hover {
+  border-radius: 25px;
+  width: 60%;
+  height: 9vh;
+  text-align: center;
+  border: none;
+}
+
+.container-footer {
+  margin-top: 15px;
+  margin-left: 28.8%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.container-footer .btn-social i {
+  margin-left: 20px;
+}
+
+.container-footer .btn-social i:hover {
+  color: black;
+}
+
+.container-end h1 {
+  border-style: groove;
+  font-size: 25px;
+  text-align: center;
+}
+
+.flex-btn{
+  display: flex;
+}
